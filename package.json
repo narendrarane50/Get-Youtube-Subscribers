@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node":"14.x"
-  },
   "scripts": {
     "start": "node src/index.js",
     "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
