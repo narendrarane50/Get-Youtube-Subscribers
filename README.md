@@ -1,13 +1,14 @@
 # Get Youtube Subscribers
 
-It is used to get the details about Youtube Subscribers.
+It is used to do create,read,update and delete operations of Youtube Subscribers data from MongoDB Atlas Database.
 
 ## Technologies that are used in this project.
   <ul>
     <li>Mongoose</li> 
     <li>Express</li>  
     <li>MongoDB</li> 
-    <li>NodeJS</li>  
+    <li>NodeJS</li>
+    <li>Nodemon</li>  
   </ul>
 
 ## Team Members
@@ -21,6 +22,9 @@ It is used to get the details about Youtube Subscribers.
 - Get All Youtube Subscribers Objects
 - Get All Youtube Subscribers Objects with specific fields
 - Get Youtube Subscriber Object with specific id
+- Insert Youtube Subscriber into MongoDB Database
+- Update Youtube Subscriber into MongoDB Database
+- Delete Youtube Subscriber into MongoDB Database
 - Showing Error message if id not correct
 
 
@@ -53,6 +57,6 @@ Create MongoDB Database and Collection
 Start the server
 
 ```bash
-  node src/index.js
+   npm start
 ```
 
