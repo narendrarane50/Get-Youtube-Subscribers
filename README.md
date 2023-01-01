@@ -2,6 +2,10 @@
 
 It is used to do create,read,update and delete operations of Youtube Subscribers data from MongoDB Atlas Database.
 
+## Demo
+
+https://drive.google.com/file/d/1kvLPBsBBP5N2jlKG4E3ZWXV6Jt1VyPTG/view?usp=sharing
+
 ## Technologies that are used in this project.
   <ul>
     <li>Mongoose</li> 
@@ -26,6 +30,19 @@ It is used to do create,read,update and delete operations of Youtube Subscribers
 - Update Youtube Subscriber into MongoDB Database
 - Delete Youtube Subscriber into MongoDB Database
 - Showing Error message if id not correct
+
+
+## Deployment
+
+The app has been deployed on 
+https://get-youtube-subscribers-new.vercel.app/subscribers
+
+
+## FAQ
+
+#### How to add new subscribers?
+
+Use Postman or thunder client to add new subscribers, Update or Delete subscribers from the database.
 
 
 ## Run Locally

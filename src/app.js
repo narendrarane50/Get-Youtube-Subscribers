@@ -81,7 +81,7 @@ app.delete("/subscribers/delete/:id",async (req,res)=>{
     
 
     subscriber = await subscribers.findByIdAndDelete(req.params.id);
-    res.json({ Success: "Note Deleted", subscriber: subscriber });
+    res.json({ Success: "Subscriber Deleted", subscriber: subscriber });
   } catch (error) {
     console.error(error.message);
     res.status(500).send("Internal server error");
